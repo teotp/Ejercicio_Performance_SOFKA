@@ -1,0 +1,8 @@
+Conclusiones del Ejercicio de Performance
+
+1. El sistema respondió correctamente a las pruebas básicas de carga.
+2. Se identificó que en escenarios con mayor número de usuarios simultáneos, el tiempo de respuesta tiende a aumentar.
+3. El endpoint principal mantuvo una tasa de éxito aceptable (≥ 95% de respuestas 200).
+4. No se detectaron errores críticos que impidan la operación normal.
+5. Se recomienda:Optimizar consultas y tiempos de respuesta en escenarios de alta concurrencia ,configurar monitoreo de métricas de rendimiento (CPU, memoria, latencia) y realizar pruebas periódicas para validar mejoras y estabilidad.
+
